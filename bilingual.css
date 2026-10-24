@@ -1,0 +1,46 @@
+@font-face{font-family:RWArabicDisplay;src:url('assets/amiri-regular.ttf');font-weight:400;font-display:swap}
+@font-face{font-family:RWArabicBody;src:url('assets/noto-sans-arabic.ttf');font-weight:100 900;font-display:swap}
+.rw-site .rw-language{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:7px 15px;border:1px solid var(--line);border-radius:24px;text-decoration:none;font-size:14px;white-space:nowrap;flex-shrink:0}
+.rw-site .rw-language[lang=ar]{font-family:RWArabicBody,Arial,sans-serif}
+.rw-site .rw-language:hover{background:var(--sand)}
+.rw-site .rw-header{gap:20px}
+.rw-site .rw-nav{margin-inline-start:auto}
+html[lang=ar] .rw-site{font-family:RWArabicBody,Arial,sans-serif;line-height:1.9}
+html[lang=ar] .rw-site h1,html[lang=ar] .rw-site h2,html[lang=ar] .rw-site h3,html[lang=ar] .rw-day-name,html[lang=ar] .rw-footer-brand,html[lang=ar] .rw-ds-example{font-family:RWArabicDisplay,serif;font-weight:400;letter-spacing:0;line-height:1.45}
+html[lang=ar] .rw-site h1{line-height:1.3}
+html[lang=ar] .rw-site .rw-hero-photo{border-radius:8px 160px 8px 8px}
+html[lang=ar] .rw-site .rw-date{right:auto;left:4%;transform:rotate(-8deg)}
+html[lang=ar] .rw-site .rw-date strong{direction:ltr;unicode-bidi:isolate}
+html[lang=ar] .rw-site .rw-path::before{left:auto;right:-8px}
+html[lang=ar] .rw-site .rw-trail{right:auto;left:-25%;transform:scaleX(-1)}
+html[lang=ar] .rw-site summary{padding:25px 0 25px 40px}
+html[lang=ar] .rw-site summary::after{right:auto;left:6px}
+html[lang=ar] .rw-site .rw-detail-body{padding:0 0 28px 40px}
+html[lang=ar] .rw-site .rw-day .rw-detail-body{padding-inline-start:88px}
+html[lang=ar] .rw-site .rw-ticket .rw-note{margin:10px 33px 0 0}
+html[lang=ar] .rw-site .rw-price{border-radius:8px 8px 8px 100px}
+html[lang=ar] .rw-site .rw-skip{left:auto;right:20px}
+html[lang=ar] .rw-site input[type=email],html[lang=ar] .rw-site input[type=tel]{text-align:start;unicode-bidi:plaintext}
+html[lang=ar] .rw-site .rw-btn{line-height:1.8}
+html[lang=ar] .rw-site .rw-note{line-height:1.85}
+html[lang=ar] .rw-site .rw-prototype{line-height:1.9}
+@media(max-width:1100px){
+  .rw-site .rw-header{flex-wrap:wrap;gap:12px;padding-block:8px}
+  .rw-site .rw-logo{order:0}
+  .rw-site .rw-language{order:1;margin-inline-start:auto}
+  .rw-site .rw-menu{display:block;order:2}
+  .rw-site .rw-nav{order:3;width:100%;flex-direction:column;align-items:stretch;gap:0;padding-block:12px;margin:0}
+  .rw-site.rw-js .rw-nav{display:none}
+  .rw-site.rw-js .rw-nav.rw-open{display:flex}
+  .rw-site .rw-nav a{padding:12px 0}
+  .rw-site .rw-nav .rw-btn{margin-top:8px;padding:14px}
+}
+@media(max-width:760px){
+  html[lang=ar] .rw-site h1{font-size:68px}
+  html[lang=ar] .rw-site .rw-page-intro h1{font-size:50px}
+  html[lang=ar] .rw-site .rw-hero-photo{border-radius:8px 95px 8px 8px}
+  html[lang=ar] .rw-site .rw-day .rw-detail-body{padding-inline-start:0}
+  html[lang=ar] .rw-site .rw-day-name{font-size:28px}
+  html[lang=ar] .rw-site .rw-price{border-bottom-left-radius:70px}
+  .rw-site .rw-language{padding-inline:12px}
+}
