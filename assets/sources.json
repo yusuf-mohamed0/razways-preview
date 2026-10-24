@@ -1,0 +1,62 @@
+[
+  {
+    "file": "island.jpg",
+    "source": "https://isescape.com/wp-content/uploads/2024/08/island-escape-by-burasari.jpg",
+    "sha256": "e3f71156432f730dda64bb91cca7370368d9096350a3a9c99df571a71844aa14",
+    "use": "Reference photography; production permission pending"
+  },
+  {
+    "file": "shore.jpg",
+    "source": "https://www.isescape.com/wp-content/uploads/2025/02/DJI_0224.jpg",
+    "sha256": "92718e2b9e9e4b64fa72d29919e07e45f9df3e3148fda8529eb23c6b64ea45f5",
+    "use": "Reference photography; production permission pending"
+  },
+  {
+    "file": "dining.jpg",
+    "source": "https://www.isescape.com/wp-content/uploads/2025/02/dining.jpg",
+    "sha256": "2361a1f48c61f357f6e407d5f16da2162bf91136ea641fac44b5e14469adec90",
+    "use": "Reference photography; production permission pending"
+  },
+  {
+    "file": "spa.jpg",
+    "source": "https://www.isescape.com/wp-content/uploads/2025/02/spa.jpg",
+    "sha256": "47b410e637ba4441a2ec1b89bc05467858e552499f1c6a26b5b9b1a3aa9f8192",
+    "use": "Reference photography; production permission pending"
+  },
+  {
+    "file": "garden.jpg",
+    "source": "https://isescape.com/wp-content/uploads/2024/04/ISC-271.jpg",
+    "sha256": "8f8715f072b4dc7064beb8f33b9acf85b5c7a25fa578b5582647155ab415d29b",
+    "use": "Reference photography; production permission pending"
+  },
+  {
+    "file": "display.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf",
+    "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+    "use": "SIL Open Font License"
+  },
+  {
+    "file": "body.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/Manrope%5Bwght%5D.ttf",
+    "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "use": "SIL Open Font License"
+  },
+  {
+    "file": "Cormorant-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/OFL.txt",
+    "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+    "use": "SIL Open Font License"
+  },
+  {
+    "file": "Manrope-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt",
+    "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+    "use": "SIL Open Font License"
+  },
+  {
+    "file": "logo.png",
+    "source": "01-source/client-originals/Brand assist/RazWays Wellness Retreats Logo(2).png",
+    "sha256": "dd14cd2bfa347c7f9bdffb3bb429106669d735eaf693fa3ef9a51d03cceabced",
+    "use": "Client-supplied brand asset; transparent bounds cropped and resized, original preserved"
+  }
+]
